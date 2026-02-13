@@ -1,0 +1,11 @@
+{
+  "name": "ats-resume-generator",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @ats-resume/web dev",
+    "build": "pnpm --filter @ats-resume/web build",
+    "preview": "pnpm --filter @ats-resume/web preview",
+    "build:html": "pnpm --filter @ats-resume/core build",
+    "pdf": "pnpm --filter @ats-resume/core pdf"
+  }
+}
